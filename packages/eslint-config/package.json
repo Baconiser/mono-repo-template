@@ -1,0 +1,25 @@
+{
+  "name": "@monorepo/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint and Prettier configuration",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+} 

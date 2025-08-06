@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "references": [
+    { "path": "./packages/vue-components" },
+    { "path": "./packages/api-client" },
+    { "path": "./apps/api" },
+    { "path": "./apps/frontend" }
+  ],
+  "files": []
+} 

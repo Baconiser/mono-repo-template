@@ -1,0 +1,30 @@
+{
+  "name": "@monorepo/frontend",
+  "version": "1.0.0",
+  "description": "Nuxt 3 frontend application",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.vue .",
+    "lint:fix": "eslint --ext .ts,.vue . --fix",
+    "type-check": "nuxt typecheck"
+  },
+  "devDependencies": {
+    "@monorepo/api-client": "workspace:*",
+    "@monorepo/eslint-config": "workspace:*",
+    "@monorepo/tailwind-config": "workspace:*",
+    "@monorepo/vue-components": "workspace:*",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "eslint": "^8.0.0",
+    "nuxt": "^3.8.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.3.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  }
+} 
